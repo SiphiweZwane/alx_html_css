@@ -2,6 +2,8 @@ body
 {
     display: flex;
     flex-direction: column;
+    background: rgb(133, 96, 133);
+    
 }
 
 main
@@ -9,16 +11,17 @@ main
     display: flex;
     flex-direction: row;
     flex:auto;
+
 }
 
 article
 {
     flex:2
-    overflow-y: auto;
+    overflow-y- auto;
 }
 
 aside
 {
     flex:1
-    overflow-y: auto;
+    overflow-y- auto;
 }
