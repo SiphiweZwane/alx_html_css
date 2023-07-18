@@ -376,14 +376,8 @@ ul.row {
     list-style: none;
 }
 
-/* .row::after {
-    content: '';
-    display: table;
-    clear: both;
-} */
 
 [class*='col-'] {
-    /* float: left; */
     padding: 0.5rem;
 }
 
@@ -703,9 +697,3 @@ ul.row {
     font-size: 10rem;
     z-index: -1;
 }
-/* .section-services{}
-.section-works{}
-.section-about-us{}
-.section-latest-news{}
-.section-testimonial{}
-.section-contact{} */

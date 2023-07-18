@@ -376,14 +376,9 @@ ul.row {
     list-style: none;
 }
 
-/* .row::after {
-    content: '';
-    display: table;
-    clear: both;
-} */
+
 
 [class*='col-'] {
-    /* float: left; */
     padding: 0.5rem;
 }
 
@@ -499,8 +494,7 @@ ul.row {
 
 /*** 3. SECTION ***/
 
-/* Section (all styles)
-      ============================= */
+/* Section (all styles)============== */
 
 .section {
     padding: var(--section-padding);
@@ -536,8 +530,7 @@ ul.row {
     text-align: var(--section-footer-align);
 }
 
-/* Section theming
-      ============================= */
+/* Section theming======= */
 
 [data-section-theme="dark"] {
     --button-color: var(--color-white);
@@ -546,8 +539,7 @@ ul.row {
     background-color: #010101;
 }
 
-/* Section HERO
-      ============================= */
+/* Section HERO=============== */
 
 .section-hero {
     background-position: 75% 0;

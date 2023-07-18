@@ -371,16 +371,11 @@ ul.row {
     list-style: none;
 }
 
-/* .row::after {
-    content: '';
-    display: table;
-    clear: both;
-} */
 
 [class*='col-'] {
     float: left;
     margin: 1rem;
-    /* Set margin to 1rem */
+    
 }
 
 .col-1-3 {
@@ -394,12 +389,8 @@ ul.row {
 /* Navbar
       ============================= */
 
-/* .navbar-menu {
-    float: right;
-} */
-
 .nav {
-    display: flex; /* Set display to flex */
+    display: flex; 
     margin: 0;
     padding: 0;
     list-style: none;
@@ -411,11 +402,10 @@ ul.row {
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    /* display: var(--nav-item-display); */
-    /* margin: var(--nav-item-margin); */
+   
 }
 .nav .nav-item + .nav-item {
-    margin: var(--nav-item-margin); /* Move margin declaration */
+    margin: var(--nav-item-margin); 
   }
 .nav .nav-link {
     display: block;
@@ -456,22 +446,9 @@ ul.row {
 
 .header-container {
     display: flex;
-    /* Set display to flex */
     justify-content: space-between;
-    /* Set justify-content to space-between */
-    align-items:center; /*align-items:cente*/
+    align-items:center; 
 }
-
-/* .header-logo {
-    position: var(--header-logo-position);
-}
-
-.header-logo a {
-    display: var(--header-logo-link-display);
-    position: var(--header-logo-link-position);
-    top: var(--header-logo-link-top);
-    left: var(--header-logo-link-left);
-} */
 
 /* Footer
       ============================= */
@@ -713,10 +690,3 @@ ul.row {
     font-size: 10rem;
     z-index: -1;
 }
-
-/* .section-services{}
-.section-works{}
-.section-about-us{}
-.section-latest-news{}
-.section-testimonial{}
-.section-contact{} */

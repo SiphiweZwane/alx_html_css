@@ -376,12 +376,6 @@ ul.row {
     list-style: none;
 }
 
-/* .row::after {
-    content: '';
-    display: table;
-    clear: both;
-} */
-
 [class*='col-'] {
     float: left;
     margin: 1rem; /* Set margin to 1rem */
@@ -573,7 +567,7 @@ ul.row {
 
 .section-services .row {
     display: flex;
-    flex-wrap: wrap; /* Wrap items onto multiple lines */
+    flex-wrap: wrap; 
   }
   
 /*** 4. CARD ***/
@@ -703,9 +697,3 @@ ul.row {
     font-size: 10rem;
     z-index: -1;
 }
-/* .section-services{}
-.section-works{}
-.section-about-us{}
-.section-latest-news{}
-.section-testimonial{}
-.section-contact{} */
